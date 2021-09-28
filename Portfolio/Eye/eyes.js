@@ -1,6 +1,6 @@
 
     var balls = document.getElementsByClassName("ball");
-    document.onmousemove = () => {
+    document.onmousemove = (event) => {
       var x = (event.clientX * 100) / window.innerWidth + "%";
       var y = (event.clientY * 100) / window.innerHeight + "%";
 
@@ -9,3 +9,4 @@
         balls[i].style.top = y;
         balls[i].transform = "translate(-" + x + ",-" + y + ")";
       }
+    };
