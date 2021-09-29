@@ -6,6 +6,11 @@ body {
     max-width: 960px;
   }
   
-  .pricing-header {
+  .products-header {
     max-width: 700px;
   }
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+}
